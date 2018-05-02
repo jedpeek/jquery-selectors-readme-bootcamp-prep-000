@@ -1,7 +1,7 @@
-// declare your functions here...
-$(document).ready(function(){
+
 function paragraphSelector(){
-  return $('p');
+  p = $('p');
+  return p;
 }
 
 function lastImageSelector(){
@@ -20,4 +20,3 @@ function firstListItem(){
   return $('pic-list ul:first-child');
 }
 
-});
