@@ -17,15 +17,7 @@ function divSelector(){
 }
 
 function firstListItem(){
-  $('pic-list ul:first-child');
+  return $('pic-list ul:first-child');
 }
 
-
-$('img');
-$('.pics');
-$('#baby-ninja')
-$('ul li');
-$('div img:first-child');
-$('img[alt="the beatles making faces"]');
-$('img:last');
 });
