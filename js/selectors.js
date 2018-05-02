@@ -1,7 +1,8 @@
 // declare your functions here...
 $(document).ready(function(){
-
-
+function paragraphSelector(){
+  return $('p')
+}
 $('img');
 $('.pics');
 $('#baby-ninja').append("Banana");
